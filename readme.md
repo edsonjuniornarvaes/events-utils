@@ -1,2 +1,2 @@
 # Utils with Javascript modules
-by Edson Junior de Andrade Narvaes
+por Edson Junior de Andrade Narvaes
