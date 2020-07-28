@@ -1,0 +1,89 @@
+<meta charset='utf-8'>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js'></script>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'/>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js'></script>
+<hr>
+<body>
+  <div class="container">
+    <div id="main">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="form-group">
+             <label>CEP</label>
+             <input class="form-control" id="cep" value="" required>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="form-group">
+            <label>Logradouro</label>
+            <input class="form-control" id="logradouro" value="">
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="form-group">
+            <label>N°</label>
+            <input class="form-control" id="numero" value="">
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="form-group">
+           <label>Bairro</label>
+           <input class="form-control" id="bairro" value="">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="form-group">
+            <label>Complemento</label>
+            <input class="form-control" id="complemento" value="">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="form-group">
+            <label>Estado</label>
+            <select class="form-control" id="estado">
+              <option value="">selecione</option>
+              <option value="umuarama">Paraná</option>
+              <option value="douradina">São Paulo</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="form-group">
+            <label>Cidade</label>
+            <select class="form-control" id="cidade">
+              <option value>selecione</option>
+              <option value="umuarama">Umuarama</option>
+              <option value="jundiai">Jundiaí</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="form-group">
+            <button class="btn btn-success" id="enviar">Adicionar
+          </div>
+        </div>
+      </div>
+    </div>
+      
+    <table class="table table-striped" id="grid">
+      <thead>
+        <tr>
+          <th scope="col">CEP</th>
+          <th scope="col">Logradouro</th>
+          <th scope="col">N°</th>
+          <th scope="col">Bairro</th>
+          <th scope="col">Complemento</th>
+          <th scope="col">Estado</th>
+          <th scope="col">Cidade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <script src="../../../public/assets/js/sections/add-to-list/add-to-list.event.js"></script>
+</body>
