@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset='utf-8'>
     <title></title>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'/>
   </head>
-  <body>
+  <body class="container">
     <select id="m-select">
       <option value="">Selecionar</option>
       <option value="0">Produto</option>
       <option value="1">Departamento</option>
     </select>
     
-    <button id="btn-comissao">recupere valor selecionado</button>
+    <button id="btn-comissao" class="btn btn-success">recupere valor selecionado</button>
 
     <div id="d1" data-comissao-produto>
       <h1>Div Produto</h1>
@@ -20,5 +21,7 @@
       <h1>Div Departamento</h1>
     </div>
   </body>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js'></script>
   <script src="../../../public/assets/js/sections/show-hide-divs/show-hide-divs.event.js"></script>
 </html>
