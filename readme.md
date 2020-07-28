@@ -1,2 +1,1 @@
-# Utils with Javascript modules
-per Edson Junior de Andrade.
+# Events utils with Javascript modules
