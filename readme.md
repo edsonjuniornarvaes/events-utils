@@ -1,1 +1,2 @@
-# Events utils with Javascript modules
+# Events utils
+with Javascript modules
